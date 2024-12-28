@@ -25,19 +25,20 @@ font-size:1.5rem
     height: 749px;
     background-image: url(Web.jpg);
     position: absolute;
-    left: 200px;
     border: solid;
     border-radius: 2%;
     border-color: white;
+    text-align: center;
 }
 #amigo{
     width: 1089px;
     height: 749px;
     background-image: url(Amingo.jpg);
     position: absolute;
-    left: 200px;
     top: 870px;
     border: solid;
     border-radius: 2%;
     border-color: white;
+    text-align: center;
+}
 }
