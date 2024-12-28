@@ -30,6 +30,8 @@ body{
         position: relative;
         background-image: url(hell.jpg);
         backface-visibility: visible;
+        text-align: center;
+
     }
 #name{
     font-size: 4rem;
