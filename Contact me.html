@@ -1,25 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact me</title>
-   <link rel="stylesheet" href="Contact.css">
-    
-</head>
-<body>
-    <div id="heading">Contact Me
-        <a href="index.html"><button>Back</button></a>
-    </div>
-    <div id="contact">
-<a> &#9743 9305764540</a><br>
-<a href="https://www.linkedin.com/in/chandra-prakash-24466b261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">&#10031 LINKEDIN</a><br>
-<a href="https://github.com/TechEnggCP001" type="text">&#10031 GitHub</a><br>
-<a href="http://t.me/Chandraprakash_yadav_4540">&#10031 TELIGRAM</a><br>
-<a href=" https://www.instagram.com/tech_engg_cp_01/?e=337b7495-8674-4ef7-a105-65321fb0ad65&g=5">&#10031 INSTAGRAM</a><br>
-<a href="https://www.facebook.com/profile.php?id=61550511982697&">&#10031 FESBOOK</a><br>
-    </div>
-    <div id="thank">Thank You &#x2665 &#xfe0f</div>
-    
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+<style>
+body{
+  font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Registration Form Container */
+    .register-container {
+      background-color: #fff;
+      padding: 25px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .register-container h1 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #333;
+    }
+
+    /* Form Groups */
+    .form-group {
+      margin-bottom: 15px;
+      text-align: left;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    /* Submit Button */
+    .submit-btn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.3s;
+    }
+
+    .submit-btn:hover {
+      background-color: #0056b3;
+    }
+
+</style>
+
+
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  <div class="register-container">
+    <h1>Contact Me</h1>
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="course">Course</label>
+        <select id="course" name="course" required>
+          <option value="" disabled selected>Select your course</option>
+          <option value="Computer Science& information Technology">Computer Science& information Technology engineering</option>
+          <option value="Electronic&communication engineering">Electronic&communication engineering</option>
+          <option value="Civil engineering">Civil engineering</option>
+          <option value="Electrical engineering">Electrical engineering</option>
+          <option value="MBA">Master of Bussiness Administration(MBA)</option>
+        </select>
+      </div>
+      <button type="submit" class="submit-btn">Register</button>
+    </form>
+  </div>
 </body>
+</html>
+    </div>
+
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
 </html>
