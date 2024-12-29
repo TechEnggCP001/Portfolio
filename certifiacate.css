@@ -18,11 +18,12 @@ button{
     font-weight: 900;
     Top:20px ;
     left:10px;
-font-size:1.5rem
+font-size:1.5rem;
 }
 #codeshoft{
     width: 1089px;
     height: 749px;
+    text-align: center;
     background-image: url(Web.jpg);
     position: absolute;
     border: solid;
@@ -33,6 +34,7 @@ font-size:1.5rem
 #amigo{
     width: 1089px;
     height: 749px;
+     text-align: center;
     background-image: url(Amingo.jpg);
     position: absolute;
     top: 870px;
@@ -41,4 +43,4 @@ font-size:1.5rem
     border-color: white;
     text-align: center;
 }
-}
+
